@@ -16,6 +16,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_app.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_app.tsx", "pages/index.jsx", "pages/add.jsx", "pages/listes/index.jsx", "pages/listes/[liste].jsx", "pages/blog/index.jsx", "pages/blog/[article].jsx", "pages/api/vocapi.jsx"],
   "exclude": ["node_modules"]
 }

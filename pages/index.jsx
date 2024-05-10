@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 import Navbar from "../components/Navbar/Navbar";
 import Head from "next/head";
 
-export default function Home(props: []) {
+export default function Home(props) {
   const [state, setState] = useState();
   console.log(props);
   const newWord = () => {

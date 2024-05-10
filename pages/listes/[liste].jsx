@@ -1,12 +1,12 @@
 import React from "react";
 
-export default function liste(props) {
+export default function Liste(props) {
   return (
     <div>
       <h1>hello liste</h1>
       <table>
         <tbody>
-          {props.listeEnCours.map((el: {}) => (
+          {props.listeEnCours.map((el) => (
             <tr key={el.fr}>
               <td>{el.en}</td>
               <td>{el.fr}</td>
@@ -37,7 +37,6 @@ export async function getStaticPaths() {
   const paths = data.englishList.map((item) => ({
     params: { liste: item.name },
   }));
-  
 
   return {
     paths,
